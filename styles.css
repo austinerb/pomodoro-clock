@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://cdn.businesstown.com/wp-content/uploads/2017/06/21135744/pexels-photo-380769.jpg");
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 1px;
+    margin: 100px auto;
+    color: rgb(54, 54, 54);
+    background-color: rgb(246, 246, 246);
+    padding: 15px;
+    width: 350px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    border: 5px solid rgb(202, 202, 202);
+}
+
+h1 {
+    font-family: "Anton";
+}
+
+#clock {
+    font-size: 85px;
+    font-family: "Roboto Mono";
+    margin-bottom: 5px;
+}
+
+.work-clock {
+    color: green;
+}
+
+.break-clock {
+    color: red;
+}
+
+div.work-container {
+    border: 5px solid green;
+}
+
+div.break-container {
+    border: 5px solid red;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
